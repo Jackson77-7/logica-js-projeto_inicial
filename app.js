@@ -5,13 +5,12 @@ alert("bom dia, bem vindo ao jogo")
 let numeroSecreto = Math.floor(Math.random() *51)
 //parceint para converter numero para inteiro, prompt para caixa do navegador
 
-        alert("Este numero é menor do que o numero secreto")
 let numeroTentativas = 0;
 
 //if eu uso para testar uma logica "==" para sinal, "> ou <" maior ou mneor ">="" ou "<="
 //else é usado par ao se não, ou seja, quando um teste logico
 
-    while (numeroTentativas <= 6) {
+    while (numeroTentativas <= 3) {
         let numeroEscolhido = parseInt(prompt("digite um numero de 0 a 50"));
         if(numeroSecreto == numeroEscolhido){
             alert(`parabéns você acertou o numero ${numeroSecreto} `)
@@ -21,4 +20,4 @@ let numeroTentativas = 0;
             alert(`voce digitou ${numeroEscolhido} que é um numero menor que o numero secreto`)
         }
         numeroTentativas = numeroTentativas +1;
-    } 
+    }
