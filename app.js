@@ -10,7 +10,7 @@ let numeroTentativas = 0;
 //if eu uso para testar uma logica "==" para sinal, "> ou <" maior ou mneor ">="" ou "<="
 //else é usado par ao se não, ou seja, quando um teste logico
 
-    while (numeroTentativas <= 3) {
+    while (numeroTentativas <= 5) {
         let numeroEscolhido = parseInt(prompt("digite um numero de 0 a 50"));
         if(numeroSecreto == numeroEscolhido){
             alert(`parabéns você acertou o numero ${numeroSecreto} `)
