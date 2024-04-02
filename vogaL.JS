@@ -1,7 +1,7 @@
-function VOGAL( letra) {
+
+function VOGAL() {
 
     let letra = "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"
 
-    alert(`você digitou um letra ${a} ${e} ${i} ${o} ${u}`)
-
+    alert(`você digitou uma ${letra} que é vogal`)
 }

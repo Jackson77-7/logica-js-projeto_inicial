@@ -86,3 +86,28 @@ h2 {
     font-size: 32px;
     font-weight: 400;
 }
+
+.botao {
+    font-size: 22px;
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+    color: #041832;
+    font-weight: bold;
+}
+.button {
+    font-size: 22px;
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+    color: #041832;
+    font-weight: bold;
+}
+.mandy {
+    font-size: 22px;
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+    color: #041832;
+    font-weight: bold;
+}
