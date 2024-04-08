@@ -6,7 +6,7 @@ alert("bom dia, bem vindo ao jogo")
 let numeroDePosições = parseInt(prompt(`quantos numeros você quer aleatorizar`))
 
 //parceint para converter numero para inteiro, prompt para caixa do navegador
-
+let listNumeroDigitado
 function numeroAleatorio(index){
 
    return Math.floor(Math.random() *index + 1)
@@ -42,3 +42,4 @@ for(let numeroTentativas = 0; numeroTentativas < 5; numeroTentativas++){
 //else é usado par ao se não, ou seja, quando um teste logi
 
 }
+
